@@ -1,13 +1,18 @@
-
-import './App.css'
+import "./App.css";
+import PriceOptions from "./Components/PriceOptions/PriceOptions";
+import Routes from "./Components/Routes/Routes";
 
 function App() {
-
   return (
     <>
-    <h1>This is from app.jsx </h1>
+      <header>
+        <Routes></Routes>
+      </header>
+      <main>
+        <PriceOptions></PriceOptions>
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
